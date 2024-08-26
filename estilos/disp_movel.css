@@ -1,0 +1,73 @@
+
+@media screen and (max-width: 1020px){
+    /* Classe Gerais */
+    .flex{
+        flex-direction: column;
+    }
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+    /* cabeçalho */
+    .menu, .btn-contato{
+        display: none;
+    }
+    /* topo do site*/
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+    section .topo-dos-site{
+        padding: 20px 8px;
+    }
+    .topo-do-site h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .topo-do-site .img-topo-site img{
+        width: 100%;
+    }
+    /* Especialidades */
+    section.especialidades{
+        padding: 40px 8%;
+        text-align: center;
+    }
+    /* Sobre */
+    section.sobre{
+        padding: 40px 8%;
+    }
+    .sobre .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+    .btn-social{
+        text-align: center;
+    }
+    .img-sobre img{
+        width: 100%;
+    }
+    section.portifolio{
+        padding: 80px 6%;
+    }
+    .img-port{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    section.portifolio .flex{
+        gap: 60px;
+    }
+    /* Rodapé */
+    footer .flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer .line-footer{
+        text-align: center;
+    }
+
+}

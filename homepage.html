@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"><!-- bootstrap icons -->
+    <title>Homepage</title>
+    <link rel="stylesheet" href="estilos/disp_movel.css"><!--Versão desktop-->
+    <link rel="stylesheet" href="estilos/styles.css">
+    <script src="menu.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="Logo">
+                <a href="">
+                    <img src="imagens/300px.png"  width="100px" alt="Logo_portifolio">
+                </a>
+            </div><!-- FIM LOGO -->
+            <nav class="menu"><!-- inicio menu -->
+                <ul>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato"><!-- botão -->
+                <a href="#">
+                    <button>contato</button>
+                </a>
+            </div>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">inicio</a></li>
+                        <li><a href="#">especialidades</a></li>
+                        <li><a href="#">projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!-- menu mobile -->
+            <div class="overlay-menu" id="overlay-menu">
+            </div>
+        </div><!-- interface -->
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h2>Bem vindo! Eu sou </h2>
+                        <h1>Luís Silva!</h1>
+                        <h2>Desenvolvedor de Software</h2>
+                        <p>Sou um Desenvolvedor de software estudando a 1 ano estou a procura do primeiro emprego, tenho proficiência nas seguintes linguagens de programação:
+                            ▪️PYTHON, JAVASCRIPT, HTML5, CSS ,Django ,Flask,Git ,Github ,Mysql ,SQlite, Bootsrap, Saas;
+                            ▪️ Já realizei um projeto de pagina única para usuários registrarem tópicos em Django, com extração de um DB SQlite , e estilização em Bootstrap;
+                            ▪️ Produzi uma Land Page com Flask e responsividade em Bootsrap e SaaS;
+
+                            Possuo conhecimento em versionamento de código, código limpo, boa resolução de problemas , analise critica e depuração. Estou no 2º período da faculdade e estudando codificação em nuvem AWS.
+                        </p>
+                        <div class="btn-social">
+                            <a href="https://www.youtube.com/@sktyin_edits" target="_blank"><button><i class="bi bi-youtube"></i></button></a>
+                            <a href="https://www.linkedin.com/in/luís-da-silva/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/xKuth" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        </div>     
+                    </div><!-- txt topo site esquerdo -->
+                    <div class="img-topo-site">
+                        <img src="imagens/professional-business-man-employment-avatar-character-collection-free-png.webp" alt="imagem pessoa profissional" width="200px" height="200px">
+                    </div><!-- img topo direito -->
+                </div>
+            </div>
+        </section><!-- Topo do site -->
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo"> Minhas <span>especialidades.</span></h2>
+                <div class="flex">
+                    <div class="especialidade-box">
+                        <h3><img src="imagens/html5.png" alt="">HTML5</h3>  
+                        <h3><img src="imagens/css3.png" alt="">CSS3</h3>  
+                        <h3><img src="imagens/bootstrap.png" alt="">BOOTSTRAP</h3> 
+                        <h3><img src="imagens/saas.png" alt="">SAAS</h3>   
+                    </div><!-- especialidades-box -->
+                    <div class="especialidade-box">
+                        <h3><img src="imagens/PY.png" alt="imagem Python"> PYTHON</h3>
+                        <h3><img src="imagens/djan.png" alt="Django imagem"> DJANGO</h3>
+                        <h3><img src="imagens/flask.png" alt="Flask Imagem"> FLASK</h3>
+                    </div><!-- especialidades-box -->
+                    <div class="especialidade-box">
+                        <h3><img src="imagens/javascript.png" alt="">JAVASCRIPT</h3>
+                        <h3><img src="imagens/xml.png" alt="">XML</h3>
+                        <h3><img src="imagens/json.png" alt="">JSON</h3>    
+                    </div><!-- especialidades-box -->
+                    <div class="especialidade-box">
+                        <h3><img src="imagens/mysql.png" alt="">MYSQL</h3>  
+                        <h3><img src="imagens/sqlite.png" alt="">SQLITE</h3>  
+                    </div><!-- especialidades-box -->
+                </div><!-- flex -->
+            </div><!-- interface -->
+        </section><!-- especialidades -->
+        <section class="portifolio">
+            <div class="interface">
+                <h2 class="titulo">Meu<span>Portifólio.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(imagens/18681.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(imagens/18681.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(imagens/18681.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!-- Flex -->
+            </div><!-- interface -->
+        </section><!-- Portifolio -->
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">Fale<span>Comigo.</span></h2>
+                <form action="">
+                    <input type="text" name="" placeholder="seu nome completo" required>
+                    <input type="text" name="" placeholder="seu email:" required>
+                    <input type="text" name="" placeholder="seu celular:">
+                    <textarea name="" id="" placeholder="sua mensagem" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div><!-- Interface -->
+        </section><!-- formulario -->
+    </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="imagens/300px.png" alt="logo" width="50px" height="50px">
+                    </div><!-- Logo -->
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="#"><button><i class="bi bi-github"></i></button></a>
+                    </div><!-- btn social -->  
+                </div>
+            </div><!-- line-footer -->
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope"></i> <a href="mailto:contato@luis.com.br">contato@luis.com.br</a></p>
+            </div><!-- line-footer -->
+        </div><!-- interface -->
+    </footer>
+</body>
+</html>
