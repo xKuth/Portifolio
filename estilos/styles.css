@@ -157,13 +157,14 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site p{
-    color: white;
+    color: black;
     margin:40px 0;
 }
 
 .topo-do-site .img-topo-site img{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    border-radius: 50%;
 }
 
 @keyframes flutuar{
