@@ -15,6 +15,7 @@
     .menu, .btn-contato{
         display: none;
     }
+
     /* topo do site*/
     section.topo-do-site .flex{
         gap: 40px;
