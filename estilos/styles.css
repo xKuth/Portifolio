@@ -246,8 +246,9 @@ section.portifolio .flex{
     background-position: 100% 100%;
 }
 div.text-port{
-    float: left;
+    float: right;
     color: #4B271D;
+    display: inline;
     font-size: 1.5em;
     position: relative; 
     margin-right: 50%;
@@ -310,7 +311,28 @@ div.quebra{
 .itens-prog{
     padding: 20px;
 }
+.text-part{
+    padding-top: 4%;
+    color: black;
+    font-size: 1.5em;
+    padding-left: 30%;
+    padding-left: 51%;
+}
 
+.video-text{
+    display: inline;
+    position: relative;
+    float: left;
+    width: 50%;  
+    height: 50%;
+    top: 40px;
+    
+}
+video{
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
 /* Estilo do rodapé */
 
 footer{
