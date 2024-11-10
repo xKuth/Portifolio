@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1200px){
     /* Classe Gerais */
     .flex{
         flex-direction: column;
@@ -64,26 +64,36 @@
     }
     /* Especialidades*/
     div.img-port{
+        float: none;
         display: block;
         width: 90%;
         height: 300px;
     }
     .text-port{
-        padding-top: 90%;
-        padding-right: 90px;
-        padding-bottom: 15%;
+        float: none;
+        padding: 0;
         margin: 0;
+        padding-top: 45%;
+        padding-right: 40%;
+        padding-bottom: 10%;
         text-align: center;
+        display: block;
     }
     .video-text{
+        float: none;
         display: block;
-        width: 50%;
+        left: 200px;
+        width: 100%;
         height: 100%;
     }
     .text-part{
-        padding-right: 90px;
-        padding-top: 200px;
-        text-align: center;
+        float: none;
+        padding-left: 0px;
+        padding-right: 300px;
+       
+    }
+    .text-mobi{
+        padding-top: 250px;
     }
     /* Rodapé */
     footer .flex{
