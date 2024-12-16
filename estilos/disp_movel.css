@@ -70,9 +70,6 @@
         height: 300px;
     }
     .text-port{
-        float: none;
-        padding: 0;
-        margin: 0;
         padding-top: 45%;
         padding-right: 40%;
         padding-bottom: 10%;
@@ -94,6 +91,9 @@
     }
     .text-mobi{
         padding-top: 250px;
+        margin: auto;
+        text-align: center;
+        
     }
     /* Rodapé */
     footer .flex{
