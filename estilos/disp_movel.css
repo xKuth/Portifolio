@@ -15,6 +15,11 @@
     .menu, .btn-contato{
         display: none;
     }
+    .swap-color{
+        display: inline;
+        width: 10px;
+        height: 10px;
+    }
 
     /* topo do site*/
     section.topo-do-site .flex{
