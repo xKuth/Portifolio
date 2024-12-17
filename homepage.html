@@ -23,19 +23,21 @@
                     <li><a href="#" onclick="rolarpg3()">Projetos</a></li>
                 </ul>
             </nav>
-            <div class="swap-color"><!-- button swap color -->
-                <a href="#" class="btt-color" id="btt-color-bg-black">
+            <div class="swap-color"><!-- div swap color -->
+
+                <a href="#" class="btt-color" id="btt-color-bg-black" onclick="swap_color_white()"><!-- button swap color black -->
                     <i class="bi bi-brightness-high-fill" id="btt-swap" style="color: rgba(255, 255, 255, 0.705);"></i>
-                    <!--<img src="imagens/black-button.png" alt="" onclick="swap_color_black()" class="img-color"> -->
-                </a>
-                <a href="#" class="btt-color" id="btt-color-bg-white">
+                </a><!-- end button swap color black -->
+
+                <a href="#" class="btt-color" id="btt-color-bg-white" onclick="swap_color_black()"><!-- button swap color white -->
                     <i class="bi bi-moon-fill" id="btt-swap" style="color: rgba(0, 0, 0, 0.836);"></i>
-                    <!-- <img src="imagens/white-button.png" alt="" onclick="swap_color_white()" class="img-color">-->
-                </a>
+                </a><!-- end button swap color white -->
+
                 <br>
                 <p class="text-swap-color" style="color: black;">light</p>
-                <p class="text-swap-color">Dark</p>
-            </div>
+                <p class="text-swap-color">Dark</p> <!-- paragraphy swap color-->
+            </div><!-- end div swap color -->
+            
             <div class="btn-contato"><!-- botão -->
                 <a href="https://www.linkedin.com/in/luís-da-silva/" target="_blank">
                     <button id="rolaralto">contato</button><!-- função com scroll para sobre-->
@@ -68,7 +70,7 @@
                         <h2>Bem vindo! Eu sou </h2>
                         <h1 style="padding-top: 2%; padding-bottom: 5%;">Luís Silva!</h1>
                         <h1>Desenvolvedor de Software</h1>
-                        <p>Sou um Desenvolvedor de software estudando a 1 ano estou a procura do primeiro emprego, tenho proficiência nas seguintes linguagens de programação:<br>
+                        <p class="swap">Sou um Desenvolvedor de software estudando a 1 ano estou a procura do primeiro emprego, tenho proficiência nas seguintes linguagens de programação:<br>
                             <br>▪️PYTHON, JAVASCRIPT, HTML5, CSS ,Django ,Flask,Git ,Github ,Mysql ,SQlite, Bootsrap, Saas;
                             <br>▪️ Já realizei um projeto de pagina única para usuários registrarem tópicos em Django, com extração de um DB SQlite , e estilização em Bootstrap;
                             <br>▪️ Produzi uma Land Page com Flask e responsividade em Bootsrap e SaaS;<br>
@@ -124,7 +126,7 @@
                         <h1 class="text-line">TECNOLOGIAS: HTML5 , CSS3 , Django , SQLITE, PostergreSQl e Bootstrap</h1>
 
                         <div class="text-port"><!-- div text right -->
-                            <p class="texto-port">Projeto criado para anotações e lembretes de tarefas diarias, com objetivo foco em organização do dia a dia, com opções de modificações e deletar anotações,cada usuario possui sua pagina personalizada as suas anotações criadas e privacidade via CSRF_TOKEN, Arquivos estaticos e atribuição de dados a SQlite e PostergreSQl externo. com padronizações em APIRest e segurança contra ataques ciberneticos.</p>
+                            <p class="texto-port" class="swap">Projeto criado para anotações e lembretes de tarefas diarias, com objetivo foco em organização do dia a dia, com opções de modificações e deletar anotações,cada usuario possui sua pagina personalizada as suas anotações criadas e privacidade via CSRF_TOKEN, Arquivos estaticos e atribuição de dados a SQlite e PostergreSQl externo. com padronizações em APIRest e segurança contra ataques ciberneticos.</p>
                             <h1 style="display: inline;">Site:</h1>
                             <a target="_blank" href="https://topics-django-render-app.onrender.com">
                                 <span class="material-symbols-outlined">
@@ -203,7 +205,7 @@
                         </div>
             
                         <div class="text-part"><!-- div text right -->
-                            <p class="text-mobi">Jogo corrida das tartarugas, com o objetivo de escolher uma corredor aleatorio das tartarugas, e ver qual chegara ao final primeiro, o resultado sempre séra aleatorio.</p>
+                            <p class="text-mobi" class="swap">Jogo corrida das tartarugas, com o objetivo de escolher uma corredor aleatorio das tartarugas, e ver qual chegara ao final primeiro, o resultado sempre séra aleatorio.</p>
                             <h1 style="display: inline;">App:</h1>
                             <a target="_blank" href="">
                                 <span class="material-symbols-outlined">
