@@ -16,9 +16,10 @@
         display: none;
     }
     .swap-color{
-        display: inline;
+        display: block;
         width: 10px;
         height: 10px;
+        border: 10px fill black;
     }
 
     /* topo do site*/
