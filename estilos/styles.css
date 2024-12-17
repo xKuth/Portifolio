@@ -88,19 +88,35 @@ div.swap-color{
     border-radius: 10px;
     display: inline;
     padding: 2px;
+    box-shadow: 2px 1px rgba(5, 4, 4, 0.678);
 }
 
-img.img-color{
-    width: 43px;   
+i#btt-swap{
+    font-size: 30px;
+    margin: 10px;
 }
 
 .btt-color:hover{
-    background-color: black;
-    animation: 0.2s;
-    box-shadow: 1px 1px black;
-    border-radius: 100%;
+    animation: 0.1s;
+    box-shadow: 1px 2px black;
+    border-radius: 40%;
 }
 
+a#btt-color-bg-white:hover{
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+a#btt-color-bg-black:hover{
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+p.text-swap-color{
+    display: inline;
+    font-size: 10px;
+    margin-right: 18px;
+    margin-left: 15px; 
+
+}
 /* Estilo menu mobile */
 .btn-abrir-menu i{
     color: var(--cor3);
