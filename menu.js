@@ -5,8 +5,7 @@ let rolaralto = document.getElementById('rolaralto')
 let rolarmeio = document.getElementById('rolarmeio')
 let rolarbaixo = document.getElementById('rolarbaixo')
 const paragraphy = document.querySelectorAll('.swap')
-console.log(paragraphy)
-
+const emphasis = document.querySelectorAll('.swap-red')
 
 
 btnMenu.addEventListener('click', ()=>{
@@ -30,19 +29,15 @@ function rolarpg3(){
 
 function swap_color_white(){
     document.body.style.backgroundColor = "#c7c4cd";
-    for(propriet in paragraphy){
-        paragraphy[propriet].style.color = 'black'
-        console.log(paragraphy)
+    for (p in paragraphy){
+        paragraphy[p].style.color = 'black'
     }
-
 }
 
 function swap_color_black(){
     document.body.style.backgroundColor = '#22232a';
-    for(propriet in paragraphy){
-        paragraphy[propriet].style.color = 'white'
-        console.log(paragraphy)
+    for (p in paragraphy){
+        paragraphy[p].style.color = 'white';
     }
 }
-
 
