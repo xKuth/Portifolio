@@ -29,15 +29,18 @@ function rolarpg3(){
 
 function swap_color_white(){
     document.body.style.backgroundColor = "#c7c4cd";
-    for (p in paragraphy){
+    for (let p = 0; p < paragraphy.length; p++){
         paragraphy[p].style.color = 'black'
     }
 }
 
 function swap_color_black(){
     document.body.style.backgroundColor = '#22232a';
-    for (p in paragraphy){
+    for (let p = 0; p < paragraphy.length; p++){
         paragraphy[p].style.color = 'white';
+    }
+    for (let i = 0; i < emphasis.length; i++){
+        emphasis[i].style.color = 'rgb(189, 35, 35)'
     }
 }
 
