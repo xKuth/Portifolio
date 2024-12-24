@@ -6,6 +6,7 @@ let rolarmeio = document.getElementById('rolarmeio')
 let rolarbaixo = document.getElementById('rolarbaixo')
 const paragraphy = document.querySelectorAll('.swap')
 const emphasis = document.querySelectorAll('.swap-red')
+const specialty = document.querySelectorAll('.especialidade-box')
 
 
 btnMenu.addEventListener('click', ()=>{
@@ -32,12 +33,16 @@ function swap_color_white(){
     for (let p = 0; p < paragraphy.length; p++){
         paragraphy[p].style.color = 'black'
     }
+    for (let i = 0; i < emphasis.length; i++){
+        emphasis[i].style.color = '#6c2cf1'
+    }
+   
 }
 
 function swap_color_black(){
     document.body.style.backgroundColor = '#22232a';
     for (let p = 0; p < paragraphy.length; p++){
-        paragraphy[p].style.color = 'white';
+        paragraphy[p].style.color = 'white'
     }
     for (let i = 0; i < emphasis.length; i++){
         emphasis[i].style.color = 'rgb(189, 35, 35)'
