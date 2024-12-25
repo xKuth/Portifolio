@@ -61,6 +61,7 @@ header > .interface{
     justify-content: space-between;
 }
 
+
 header a{
     color: var(--cor3);
     text-decoration: none;
@@ -82,9 +83,14 @@ header nav.menu ul li{
     padding: 0 40px;
     font-size: 22px;
 }
+a.swap-red{
+    text-decoration: underline;
+    
+}
 p.swap{
     color: white;
 }
+
 h1.swap-red{
     color: #4B271D;
 }
