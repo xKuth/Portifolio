@@ -28,6 +28,16 @@ function rolarpg3(){
     rolarbaixo.scrollIntoView({behavior:"smooth"})
 }
 
+function swap_color_default(){
+    document.body.style.backgroundColor = '#CAB9B5'
+    for (let p = 0; p < paragraphy.length; p++){
+        paragraphy[p].style.color = 'white'
+    }
+    for (let i = 0; i < emphasis.length; i++){
+        emphasis[i].style.color = '#4B271D'
+    }
+}
+
 function swap_color_white(){
     document.body.style.backgroundColor = "#c7c4cd";
     for (let p = 0; p < paragraphy.length; p++){
@@ -46,15 +56,5 @@ function swap_color_black(){
     }
     for (let i = 0; i < emphasis.length; i++){
         emphasis[i].style.color = 'rgb(189, 35, 35)'
-    }
-}
-
-function swap_color_default(){
-    document.body.style.backgroundColor = '#CAB9B5'
-    for (let p = 0; p < paragraphy.length; p++){
-        paragraphy[p].style.color = 'white'
-    }
-    for (let i = 0; i < emphasis.length; i++){
-        emphasis[i].style.color = '#4B271D'
     }
 }
