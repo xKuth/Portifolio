@@ -49,3 +49,12 @@ function swap_color_black(){
     }
 }
 
+function swap_color_default(){
+    document.body.style.backgroundColor = '#CAB9B5'
+    for (let p = 0; p < paragraphy.length; p++){
+        paragraphy[p].style.color = 'white'
+    }
+    for (let i = 0; i < emphasis.length; i++){
+        emphasis[i].style.color = '#4B271D'
+    }
+}

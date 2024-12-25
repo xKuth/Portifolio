@@ -114,7 +114,7 @@ p.text-swap-color{
     display: inline;
     font-size: 10px;
     margin-right: 18px;
-    margin-left: 15px; 
+    margin-left: 10px; 
 
 }
 /* Estilo menu mobile */
@@ -344,7 +344,7 @@ div.quebra{
 }
 
 .itens-prog{
-    padding: 20px;
+    margin-top: 4%;
 }
 .text-part{
     padding-top: 4%;
