@@ -15,8 +15,8 @@
     .menu, .btn-contato{
         display: none;
     }
-    .swap-color{
-        display: block;
+    div.swap-color{
+        display: flex;
         width: 10px;
         height: 10px;
         border: 10px fill black;
