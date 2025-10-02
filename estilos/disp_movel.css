@@ -12,6 +12,9 @@
         flex-direction: column-reverse;
     }
     /* cabeçalho */
+    header{
+        padding-bottom: 5%;
+    }
     .menu, .btn-contato{
         display: none;
     }
@@ -33,14 +36,25 @@
         font-size: 32px;
         text-align: center;
     }
+    div.interface{
+        text-align: center;
+    }
     
     .topo-do-site .img-topo-site img{
         width: 100%;
     }
     /* Especialidades */
     section.especialidades{
-        padding: 40px 8%;
-        text-align: center;
+        padding-top: 10%;
+        align-items: center;
+    }
+    h2.titulo{
+        padding-bottom: 4%;
+    }
+    div.especialidades-box{
+       
+        position: relative;
+        display: inline-block;
     }
     /* Sobre */
     section.sobre{

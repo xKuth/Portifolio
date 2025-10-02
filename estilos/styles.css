@@ -20,8 +20,9 @@ body{
     color: white;
 }
 
-.interface{
-    max-width: 1200px;
+div.interface{
+    padding-top: 5%;
+    display: inline-block;
     margin: auto;
 }
 
@@ -224,7 +225,9 @@ section.topo-do-site .flex{
 }
 /* Estilos das especialidades */
 section.especialidades{
-    padding: 40px 4%;
+    padding-top: 5%;
+    margin: 5%;
+    display: inline;
 }
 section.especialidades .flex{
     gap: 60px;
