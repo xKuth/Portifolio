@@ -15,6 +15,9 @@
     header{
         padding-bottom: 5%;
     }
+    header > div.interface{
+        display: inline;
+    }
     .menu, .btn-contato{
         display: none;
     }
@@ -26,19 +29,18 @@
     }
 
     /* topo do site*/
-    section.topo-do-site .flex{
-        gap: 40px;
     }
-    section .topo-dos-site{
-        padding: 20px 8px;
+    section.topo-do-site{
+        text-align: center;
     }
     .topo-do-site h1{
         font-size: 32px;
         text-align: center;
     }
     div.interface{
-        text-align: center;
-    }
+        max-width: 50vw;
+        min-width: 90%;
+        }
     
     .topo-do-site .img-topo-site img{
         width: 100%;
@@ -47,15 +49,20 @@
     section.especialidades{
         padding-top: 10%;
         align-items: center;
+        width: 30vw;
     }
     h2.titulo{
         padding-bottom: 4%;
     }
     div.especialidades-box{
-       
+       padding-bottom: 5%;
         position: relative;
         display: inline-block;
     }
+    div.especialidade-box > h3{
+        text-align: center;
+    }
+
     /* Sobre */
     section.sobre{
         padding: 40px 8%;
@@ -72,7 +79,7 @@
         width: 100%;
     }
     section.portifolio{
-        padding: 80px 6%;
+        text-align: center;
     }
     .img-port{
         width: 100%;
@@ -123,5 +130,3 @@
     footer .line-footer{
         text-align: center;
     }
-
-}

@@ -236,7 +236,7 @@ section.especialidades .flex{
     color: white;
     padding: 40px;
     border-radius: 20px;
-    margin-top: 45px;
+    margin-top: 5%;
     transition: .2s;
 }
 .especialidades .especialidade-box:hover{
