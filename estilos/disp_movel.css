@@ -82,12 +82,19 @@
         text-align: center;
     }
     .img-port{
+        display: flex;
         width: 100%;
         max-width: 360px;
         margin: 0 auto;
     }
-    section.portifolio .flex{
-        gap: 60px;
+    div.text-port{
+        display: inline-block;
+
+    }
+ 
+    section.portifolio div.quebra{
+        display: inline-block;
+        position: relative;
     }
     /* Especialidades*/
     div.img-port{
