@@ -13,19 +13,20 @@
     }
     /* cabeçalho */
     header{
+        display: flex;
         padding-bottom: 5%;
     }
     header > div.interface{
-        display: inline;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
     }
     .menu, .btn-contato{
         display: none;
     }
     div.swap-color{
-        display: flex;
-        width: 10px;
-        height: 10px;
-        border: 10px fill black;
+        display: inline-flex;
+        
     }
 
     /* topo do site*/

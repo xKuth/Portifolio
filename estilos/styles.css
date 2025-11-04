@@ -225,12 +225,14 @@ section.topo-do-site .flex{
 }
 /* Estilos das especialidades */
 section.especialidades{
+    display: inline;
+    text-align: center;
     padding-top: 5%;
     margin: 5%;
-    display: inline;
 }
 section.especialidades .flex{
     gap: 60px;
+    text-align: center;
 }
 .especialidades .especialidade-box{
     color: white;
