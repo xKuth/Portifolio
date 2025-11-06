@@ -285,7 +285,7 @@ section.portifolio .flex{
     width: 50%;
     height: 460px;
     display: relative;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
     background-size: cover;
     background-position: 100% 0%;
     transition: 5s;
@@ -298,15 +298,11 @@ section.portifolio .flex{
     background-position: 100% 100%;
 }
 div.text-port{
-    float: right;
+    position: relative;
+    display: block;
     color: #4B271D;
-    display: inline;
     font-size: 1.5em;
-    position: relative; 
-    margin-right: 50%;
-    margin-left: 1%;
-    left: 51%;
-    top: 6vh;
+
 }
 
 h1.text-line{
@@ -315,7 +311,7 @@ h1.text-line{
 }
 
 div.quebra{
-    display: inline-block;
+    display: block;
     width: 100%;
     position: relative;
     border: 1px outset black;
@@ -360,11 +356,11 @@ div.quebra{
     transform: scale(1.02);
 }
 
-.itens-prog{
-    margin-top: 4%;
+div.itens-prog{
+    display: inline;
 }
-.text-part{
-    padding-top: 4%;
+div.text-part{
+    padding-top: 1%;
     color: black;
     font-size: 1.5em;
     padding-left: 51%;

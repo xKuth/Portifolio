@@ -105,11 +105,11 @@
         height: 300px;
     }
     .text-port{
-        padding-top: 45%;
-        padding-right: 40%;
+        padding-top: 10vh;
         padding-bottom: 10%;
+        margin-right: 1%;        
+        margin-left: 1%;
         text-align: center;
-        display: block;
     }
     .video-text{
         float: none;
@@ -120,8 +120,6 @@
     }
     .text-part{
         float: none;
-        padding-left: 0px;
-        padding-right: 300px;
        
     }
     .text-mobi{
