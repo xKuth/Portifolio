@@ -1,5 +1,6 @@
 let btnMenu = document.getElementById('btn-menu');
 let menu = document.getElementById('menu-mobile');
+let menu_color = document.getElementsByClassName('menu-mobile');
 let overlay = document.getElementById('overlay-menu')
 let rolaralto = document.getElementById('rolaralto')
 let rolarmeio = document.getElementById('rolarmeio')
@@ -30,6 +31,7 @@ function rolarpg3(){
 
 function swap_color_default(){
     document.body.style.backgroundColor = '#CAB9B5'
+    menu_color.style.backgroundColor = "#CAB9B5"
     for (let p = 0; p < paragraphy.length; p++){
         paragraphy[p].style.color = 'white'
     }
@@ -40,6 +42,7 @@ function swap_color_default(){
 
 function swap_color_white(){
     document.body.style.backgroundColor = "#c7c4cd";
+    menu_color.style.backgroundColor = "#c7c4cd"
     for (let p = 0; p < paragraphy.length; p++){
         paragraphy[p].style.color = 'black'
     }
