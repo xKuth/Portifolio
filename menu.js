@@ -31,7 +31,7 @@ function rolarpg3(){
 
 function swap_color_default(){
     document.body.style.backgroundColor = '#CAB9B5'
-    menu_color.style.backgroundColor = "#CAB9B5"
+    menu.style.backgroundColor = "#CAB9B5"
     for (let p = 0; p < paragraphy.length; p++){
         paragraphy[p].style.color = 'white'
     }
@@ -42,7 +42,7 @@ function swap_color_default(){
 
 function swap_color_white(){
     document.body.style.backgroundColor = "#c7c4cd";
-    menu_color.style.backgroundColor = "#c7c4cd"
+    menu.style.backgroundColor = "#c7c4cd"
     for (let p = 0; p < paragraphy.length; p++){
         paragraphy[p].style.color = 'black'
     }
@@ -54,6 +54,7 @@ function swap_color_white(){
 
 function swap_color_black(){
     document.body.style.backgroundColor = '#22232a';
+    menu.style.backgroundColor = "#22232a"
     for (let p = 0; p < paragraphy.length; p++){
         paragraphy[p].style.color = 'white'
     }
