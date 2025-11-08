@@ -350,8 +350,10 @@ div.quebra{
 }
 
 .a-overlay{
-    position: relative;
-    margin-left: 40%;
+    position:static;
+    display: block;
+    text-align: center;    
+    padding-top: 40%;
 }
 .material-symbols-outlined{
     padding-top: 2%;
