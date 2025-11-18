@@ -243,15 +243,14 @@ div.linguages{
     padding: 4%;
 
 }
-.especialidade-box{
-    display: inline-block;
+div.especialidade-box{
+    display: inline;
     align-content: center;
     color: rgb(76, 30, 30);
     border-radius: 7%;
     margin-top: 5%;
     transition: .2s;
-    width: 17vw;
-    height: 30vh;
+
 }
 .especialidade-box:hover{
     transform: scale(1.05);
