@@ -97,11 +97,11 @@ h1.swap-red{
 }
 
 div.swap-color{
-    border: 2px solid black;
-    border-radius: 10px;
     display: inline;
-    padding: 2px;
+    border: 2px solid black;
     box-shadow: 2px 1px rgba(5, 4, 4, 0.678);
+    border-radius: 10px;
+    padding: 2px;
 }
 
 i#btt-swap{
@@ -122,13 +122,15 @@ a#btt-color-bg-white:hover{
 a#btt-color-bg-black:hover{
     background-color: rgba(0, 0, 0, 0.76);
 }
+a.btt-color{
+    margin-left: 1vw;
+}
 
 p.text-swap-color{
     display: inline;
-    font-size: 10px;
-    margin-right: 18px;
-    margin-left: 10px; 
-
+    font-size: 1vw;
+    text-align: center;
+    margin-left: 1.2vw;
 }
 /* Estilo menu mobile */
 .btn-abrir-menu i{
