@@ -132,59 +132,6 @@ p.text-swap-color{
     text-align: center;
     margin-left: 1.2vw;
 }
-/* Estilo menu mobile */
-.btn-abrir-menu i{
-    color: var(--cor3);
-    font-size: 40px;
-}
-.menu-mobile{
-    background-color: var(--cor1);
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 99999;
-    width: 0%;
-    overflow: hidden;
-    transition: .5s;
-}
-.menu-mobile.abrir-menu{
-    width: 70%;
-}
-.menu-mobile.abrir-menu ~ .overlay-menu{
-    display: block;
-}
-.menu-mobile .btn-fechar{
-    padding: 20px 5%;
-
-}
-.menu-mobile .btn-fechar i{
-    font-size: 30px;
-}
-.menu-mobile nav ul{
-    text-align: right;
-}
-.menu-mobile nav ul li a{
-    color: var(--cor3);
-    font-size: 30px;
-    font-weight: 300;
-    padding: 20px 8%;
-    display: block;
-}
-.menu-mobile nav ul li a:hover{
-    background-color: var(--cor3);
-    color: black;
-}
-.overlay-menu{
-    background-color: rgba(0, 0, 0, 0.795);
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 88888;
-    display: none;
-}
 
 /* Estilo topo do site */
 
@@ -227,30 +174,31 @@ section.topo-do-site .flex{
 }
 /* Estilos das especialidades */
 section.especialidades{
+    display: block;
     margin: 5%;
     padding-bottom: 3%;
 }
 .interface_lingua {
+    display: flex;
     position: relative;
-    display: block;
-    text-align: center;
+    display: inline;
+
 }
 
 div.linguages{
-    display: inline;
-    align-items: center;
-    padding-bottom: 2%;
-    padding: 4%;
-
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    
 }
+
 div.especialidade-box{
-    display: inline;
-    align-content: center;
+    padding: 3%;
     color: rgb(76, 30, 30);
     border-radius: 7%;
-    margin-top: 5%;
+    margin-top: 3%;
     transition: .2s;
-
+    
 }
 .especialidade-box:hover{
     transform: scale(1.05);
@@ -414,4 +362,8 @@ footer .line-footer p i{
 
 footer .line-footer p a{
     color: white;
+}
+
+.bi.bi-list{
+    visibility: hidden;
 }
