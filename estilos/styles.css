@@ -97,11 +97,15 @@ h1.swap-red{
 }
 
 div.swap-color{
-    display: inline;
+    display: block;
     border: 2px solid black;
     box-shadow: 2px 1px rgba(5, 4, 4, 0.678);
     border-radius: 10px;
-    padding: 2px;
+    padding: 1%;
+}
+ .img-swap-color{
+        display: flex;
+        
 }
 
 i#btt-swap{
@@ -125,12 +129,22 @@ a#btt-color-bg-black:hover{
 a.btt-color{
     margin-left: 1vw;
 }
+.p_swap-color{
+    display: flex;
+    padding-left: 2%;
+    gap: 10%;
+}
 
 p.text-swap-color{
-    display: inline;
+    display: inline-block;
     font-size: 1vw;
-    text-align: center;
     margin-left: 1.2vw;
+    gap: 5%;
+}
+
+div#menu-mobile{
+    overflow: hidden;
+    visibility: hidden;
 }
 
 /* Estilo topo do site */
