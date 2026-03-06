@@ -152,7 +152,7 @@ div#menu-mobile{
 /* Estilo topo do site */
 
 section .topo-dos-site{
-    padding: 40px 4px;
+    padding-top: 1%;
 
 }
 section.topo-do-site .flex{
@@ -161,6 +161,9 @@ section.topo-do-site .flex{
     gap: 90px;
     box-shadow: -3px -1px 10px 0px black;
     padding: 5% 5%;
+}
+.topo-do-site{
+    margin: 4vw;
 }
 .topo-do-site h1{
     color: var(--cor3);
