@@ -53,13 +53,15 @@ button:hover, form .btn-enviar input:hover{
 }
 
 header{
-    padding: 40px 4%;
+    padding: 2%;
 }
 
 header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10vw;
+    
 }
 
 
@@ -88,9 +90,6 @@ a.swap-red{
     text-decoration: underline;
     
 }
-p.swap{
-    color: white;
-}
 
 h1.swap-red{
     color: #4B271D;
@@ -101,11 +100,15 @@ div.swap-color{
     border: 2px solid black;
     box-shadow: 2px 1px rgba(5, 4, 4, 0.678);
     border-radius: 10px;
-    padding: 1%;
+    padding: 2%;
 }
  .img-swap-color{
-        display: flex;
+    display: flex;
         
+}
+.p_swap-color{
+    display: flex;
+    
 }
 
 i#btt-swap{
@@ -138,8 +141,7 @@ a.btt-color{
 p.text-swap-color{
     display: inline-block;
     font-size: 1vw;
-    margin-left: 1.2vw;
-    gap: 5%;
+    margin-left: 0.7vw;
 }
 
 div#menu-mobile{
