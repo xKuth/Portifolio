@@ -77,14 +77,15 @@ header nav.menu a:hover{
     transform: scale(1.05);
 }
 
-header nav ul{
+header nav.menu ul{
+    display: inline;
     list-style-type: none;
+
 }
 
-header nav.menu ul li{
-    display: inline-block;
-    padding: 0 40px;
-    font-size: 22px;
+header nav.menu{
+    display: flex;
+    font-size: 2wv;
 }
 a.swap-red{
     text-decoration: underline;
