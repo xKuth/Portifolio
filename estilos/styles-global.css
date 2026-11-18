@@ -266,15 +266,15 @@ section.portifolio .flex{
 .img-port{
     width: 50%;
     height: 460px;
-    display: relative;
-    margin-bottom: 1%;
+    display: inline-block;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 25%;
     background-size: cover;
     background-position: 100% 0%;
     transition: 5s;
     cursor: pointer;
     border-radius: 40px;
-    position: relative;
-    top: 5vh;
 }
 .img-port:hover{
     background-position: 100% 100%;

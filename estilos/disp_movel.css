@@ -153,9 +153,8 @@
         text-align: center;
     }
     .img-port{
-        display: flex;
-        width: 100%;
-        max-width: 360px;
+        width: 90%;
+        height: 300px;
         margin: 0 auto;
     }
     div.text-port{
@@ -168,12 +167,7 @@
         position: relative;
     }
 
-    div.img-port{
-        float: none;
-        display: block;
-        width: 90%;
-        height: 300px;
-    }
+
     .text-port{
         padding-top: 10vh;
         padding-bottom: 10%;
