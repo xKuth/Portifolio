@@ -232,6 +232,9 @@ div.especialidade-box{
     font-size: 20px;
     margin: 15px 0px;
 }
+.btn-social{
+     text-align: center;
+}
 
 .btn-social button{
     width: 60px;

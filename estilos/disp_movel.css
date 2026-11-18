@@ -107,7 +107,7 @@
         display: none;
     }
 
-    /* topo do site*/
+    /* Section topo do site*/
     
     section.topo-do-site{
         text-align: center;
@@ -124,9 +124,8 @@
     .topo-do-site .img-topo-site img{
         width: 100%;
     }
-    /* Especialidades */
+    /* Section especialidades */
 
-    /* Sobre */
     section.sobre{
         padding: 40px 8%;
     }
@@ -141,6 +140,15 @@
     .img-sobre img{
         width: 100%;
     }
+    .interface_lingua {
+        flex-direction: column; 
+        align-items: center;
+    }
+    div.linguages{
+        justify-content: center;
+    }
+    /* Section portifolio */
+
     section.portifolio{
         text-align: center;
     }
@@ -159,7 +167,7 @@
         display: inline-block;
         position: relative;
     }
-    /* Especialidades*/
+
     div.img-port{
         float: none;
         display: block;
