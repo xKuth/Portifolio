@@ -28,18 +28,31 @@
 
     div.swap-color{
         display: block;
-        margin-right: 10%;
-        padding: 3%;
+        width: 60vw;
+        margin-right: 8%;
+        padding: 5%;
         
+    }
+    div.img-swap-color{
+        justify-content: space-between;
+        padding-right: 10%;
     }
    
     a.btt-color{
-        width: 8vw;
+        width: 2vw;
+        height: 2vh;
         margin-top: 2vh;
     }
+
+    i#btt-swap{
+       font-size: 4vw;
+    }
+
     .p_swap-color{
-        padding-left: 2%;
-        gap: 22%;
+        justify-content: space-between;
+        padding-top: 10%;
+        padding-left: 10%;
+        
     }
     p.text-swap-color{
         display: flex;
