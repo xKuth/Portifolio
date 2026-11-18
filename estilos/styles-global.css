@@ -77,16 +77,21 @@ header nav.menu a:hover{
     transform: scale(1.05);
 }
 
-header nav.menu ul{
-    display: inline;
-    list-style-type: none;
-
-}
-
-header nav.menu{
+nav.menu{
     display: flex;
-    font-size: 2wv;
+    font-size: 3wh;
+    margin-right: 2%;
 }
+
+nav.menu ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.3vw;
+    gap: 7vw;
+
+}
+
+
 a.swap-red{
     text-decoration: underline;
     
