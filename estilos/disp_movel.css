@@ -175,16 +175,20 @@
         margin-left: 1%;
         text-align: center;
     }
-    .video-text{
-        float: none;
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
     .text-part{
         float: none;
-       
+        
     }
+    .video-text{
+        margin: 0 auto;
+    }
+
+    video{
+    width: 90%;
+    height: 90%;
+    border-radius: 40px;
+    }
+
     .text-mobi{
         padding-top: 250px;
         margin: auto;

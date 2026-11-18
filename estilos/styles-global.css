@@ -351,16 +351,19 @@ div.text-part{
 }
 
 .video-text{
-    display: block;
-    position: relative;
     padding-bottom: 2%;
-
+    width: 100%;
+    height: 70%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center;
     
 }
 video{
-    width: 40%;
-    height: 40%;
-    border-radius: 2%;
+    width: 50%;
+    height: 50%;
+    border-radius: 40px;
+    transition: 5s;
 }
 /* Estilo do rodapé */
 
