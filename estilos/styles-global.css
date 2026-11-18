@@ -152,7 +152,7 @@ p.text-swap-color{
 }
 
 div#menu-mobile{
-    overflow: hidden;
+    overflow: visible;
     visibility: hidden;
 }
 
