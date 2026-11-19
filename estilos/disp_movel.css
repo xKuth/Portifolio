@@ -161,7 +161,7 @@
         align-items: center;
     }
     div.linguages{
-        justify-content: center;
+        margin: 0;
     }
     /* Section portifolio */
 

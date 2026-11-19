@@ -224,6 +224,7 @@ div.linguages{
 }
 
 div.especialidade-box{
+    width: 15vw;
     padding: 3%;
     color: rgb(76, 30, 30);
     border-radius: 7%;
@@ -240,8 +241,8 @@ div.especialidade-box{
 }
 
 .especialidade-box h3{
-    font-size: 20px;
-    margin: 15px 0px;
+    font-size: 1.5vw;
+    margin-top: 10%;
 }
 .btn-social{
      text-align: center;
