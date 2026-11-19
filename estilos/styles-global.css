@@ -23,11 +23,16 @@ body{
 div.interface{
     padding-top: 5%;
     display: inline-block;
-    margin: auto;
+    margin: 0;
 }
 
 .flex{
     display: flex;
+}
+
+div.logo img{
+    width: 8vw;
+    transition: 5s;
 }
 
 .btn-contato button{
@@ -60,7 +65,7 @@ header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 10vw;
+    padding-left: 4vw;
     
 }
 

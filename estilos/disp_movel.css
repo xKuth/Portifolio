@@ -18,8 +18,7 @@
     }
     header > div.interface{
         position: relative;
-        display: inline-flex;
-        align-items: center;
+        
     }
     nav.menu{
         overflow: hidden;
