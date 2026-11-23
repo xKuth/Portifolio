@@ -1,7 +1,12 @@
 @charset "utf-8";
 @media screen and (max-width: 480px) {
     div.swap-color{
-        
+        width: 100vw;
+        margin: 0;
+    }
+    div.btn-abrir-menu{
+        font-size: 7vw;
+
     }
     div.linguages, div.especialidade-box h3.swap-red{
             display: flex;

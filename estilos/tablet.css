@@ -23,6 +23,7 @@
     nav.menu{
         overflow: hidden;
         visibility: hidden;
+        margin: 0;
     }
 
     div.swap-color{
@@ -133,7 +134,7 @@
         text-align: center;
     }
     div.interface{
-        min-width: 90%;
+        width: 90vw;
     }
     
     .topo-do-site .img-topo-site img{
